@@ -3,7 +3,7 @@ import { HomePageStyle, MainButton } from '../utils/styles';
 
 export const LoginPage = () => {
   const redirect = () => {
-    window.location.href = 'http://localhost:3001/api/auth/login';
+    window.location.href = 'https://norme-bot.netlify.app/callback';
   };
   return (
     <HomePageStyle>
